@@ -24,5 +24,19 @@ Vox uses `webrtcvad` for voice activity detection (VAD), the `SpeechRecognition`
 - **SpeechRecognition** (Google API)  
 - **pyttsx3** for offline TTS  
 - **pycaw** & **comtypes** for Windows volume control  
-- **Pillow** for screenshots  
+- **Pillow** for screenshots
+
+## Getting Started
+
+To get started with this project, follow these instructions:
+
+### Cloning the Repository
+
+To clone the repository, run the following command:
+
+```bash
+git clone https://github.com/PrathameshBamb/Vox-Voice-Assistant.git
+cd path to your project file
+python main.py
+```
 
