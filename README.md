@@ -1,6 +1,6 @@
 # Vox Voice Assistant
 
-Vox Voice Assistant is a Python‐based, desktop voice assistant for Windows. It listens for a wake word (“hey vox”, “hello vox”, “hi vox”, or just “hey”), recognizes your spoken commands, and performs actions like opening applications, controlling volume, taking screenshots, and more—just like Siri, Google Assistant, or Alexa.
+Vox Voice Assistant is a Python‐based, desktop voice assistant for Windows. It listens for a wake word (“hey vox”, “hello vox”, “hi vox”), recognizes your spoken commands, and performs actions like opening applications, controlling volume, taking screenshots, and more just like Siri, Google Assistant, or Alexa.
 
 ## Overview
 
@@ -8,7 +8,7 @@ Vox uses `webrtcvad` for voice activity detection (VAD), the `SpeechRecognition`
 
 ## Features
 
-- **Hot-word Activation**: “hey vox”, “hello vox”, “hi vox”, or “hey”  
+- **Hot-word Activation**: “hey vox”, “hello vox”, “hi vox”.  
 - **Voice Activity Detection**: Only captures speech segments with `webrtcvad`.  
 - **Speech Recognition**: Google Speech API via `SpeechRecognition`.  
 - **Natural Responses**: Announces actions in “-ing” form (“Opening Chrome”, “Taking screenshot”).  
